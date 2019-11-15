@@ -2,3 +2,21 @@
 title: "01-data-seahorses"
 output: html_document
 ---
+
+## Tourist locations for Hippocampus reidi in Brazil
+
+## Required Packages
+
+```{r, message=FALSE}
+library(dplyr)
+library(ggplot2)
+library(tidyverse)
+```
+
+## Importing Data Set for Seahorses
+
+```{r}
+Hippocampus_reidi_Brazil <- read.csv("../raw_data/Hippocampus_reidi_Brazil.csv")
+head(Hippocampus_reidi_Brazil)
+```
+
