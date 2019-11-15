@@ -20,3 +20,26 @@ Hippocampus_reidi_Brazil <- read.csv("../raw_data/Hippocampus_reidi_Brazil.csv")
 head(Hippocampus_reidi_Brazil)
 ```
 
+## Narrowing Data Set to Relative Fields
+
+```{r}
+new_data <- select(Hippocampus_reidi_Brazil, Location, Number_Sighted, Average_Height_cm) 
+   
+
+knitr::kable(head(new_data))
+```
+
+## Plotting Average Height vs Number Sighted
+
+```{r}
+ggplot(data = new_data) + 
+  geom_point(mapping = aes(x = Number_Sighted, y = Average_Height_cm, color = Location)) +
+  theme_bw() +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
+  xlab("Number Sighted") +
+  ylab("Average Height (cm)") +
+  theme(legend.title = element_blank()) 
+```
+
+
+
