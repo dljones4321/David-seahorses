@@ -1,0 +1,10 @@
+---
+title: "01-data-seahorses"
+output: html_document
+---
+
+library(readxl)
+Hippocampus_reidi_Brazil <- read_excel("raw_data/Hippocampus_reidi_Brazil.xlsx")
+View(Hippocampus_reidi_Brazil)
+
+
