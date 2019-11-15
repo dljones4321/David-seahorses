@@ -37,8 +37,7 @@ ggplot(data = new_data) +
   theme_bw() +
   theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) +
   xlab("Number Sighted") +
-  ylab("Average Height (cm)") +
-  theme(legend.title = element_blank()) 
+  ylab("Average Height (cm)") 
 ```
 
 
