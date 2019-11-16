@@ -1,6 +1,22 @@
 ---
 title: "01-data-seahorses"
-output: html_document
+output: html_document 
+---
+
+## **Hippocampus reidi and where to see it in the wild**
+
+The visable population and size of Hippocampus reidi will be compared to show where the most likely areas would be to see it 
+in the wild. This can be used by snorkelers and skuba divers to plan
+vacation destinations. 
+
+In this document I will:
+
+1.Import the dataset Hippocampus_reidi_Brazil.csv from the raw_data folder. 
+
+2.Reduce the dataset down to pertanent information.
+
+3.Dispay the information visually in a graph.
+
 ---
 
 ## Tourist locations for Hippocampus reidi in Brazil
